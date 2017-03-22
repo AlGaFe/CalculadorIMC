@@ -9,12 +9,12 @@
 
 <AnchorPane id="AnchorPane" onMouseDragged="#SlideDeAltura" prefHeight="200" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadoraimc.FXMLDocumentController">
    <children>
-      <ScrollBar fx:id="ScrollPeso" layoutX="262.0" layoutY="147.0" max="600.0" min="20.0" onMouseDragged="#ScrollDePeso" prefHeight="14.0" prefWidth="206.0" value="20.0">
+      <ScrollBar fx:id="ScrollPeso" layoutX="262.0" layoutY="147.0" max="600.0" min="20.0" onMouseClicked="#ScrollDePeso" onMouseDragged="#ScrollDePeso" prefHeight="14.0" prefWidth="206.0" value="20.0">
          <cursor>
             <Cursor fx:constant="CLOSED_HAND" />
          </cursor>
       </ScrollBar>
-      <Slider fx:id="SlideAltura" layoutX="262.0" layoutY="77.0" majorTickUnit="10.0" max="250.0" min="50.0" onMouseDragged="#SlideDeAltura" prefHeight="13.0" prefWidth="206.0" showTickLabels="true" showTickMarks="true" value="50.0">
+      <Slider fx:id="SlideAltura" layoutX="262.0" layoutY="77.0" majorTickUnit="10.0" max="250.0" min="50.0" onMouseClicked="#SlideDeAltura" onMouseDragged="#SlideDeAltura" prefHeight="13.0" prefWidth="206.0" showTickLabels="true" showTickMarks="true" value="50.0">
          <cursor>
             <Cursor fx:constant="CLOSED_HAND" />
          </cursor>
